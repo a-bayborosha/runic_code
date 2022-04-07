@@ -1,0 +1,30 @@
+@import "zeroing.scss";
+.wrapper {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px 40px;
+}
+.title {
+  border: 1px solid black;
+  font-size: 50px;
+  line-height: 100px;
+}
+.input__block {
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  .daten__input {
+    border: 1px solid black;
+  }
+}
+
+.output__block {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  .rune {
+    border: 1px solid black;
+    height: 500px;
+    width: 33.333%;
+  }
+}
